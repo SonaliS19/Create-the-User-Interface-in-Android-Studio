@@ -1,0 +1,47 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+ In this exercise, the padding Modifier was used to properly space composables. 
+1 / 1 point
+
+True
+
+False
+Correct
+Correct! The padding Modifier was used to properly space composables.    
+2.
+Question 2
+In this exercise, which callback was used to monitor the Text composable value change?
+1 / 1 point
+
+1
+onTextChange
+
+
+1
+onValueChange
+
+
+ 
+
+1
+onValueUpdate    
+
+Correct
+Correct! The onValueChange callback is used to monitor any changes in text state.
+3.
+Question 3
+In the exercise, how was the username and password retrieved from Text composable?
+1 / 1 point
+
+using string property
+
+using field property
+
+using text property
+Correct
+Correct! The text property was used to verify if the username and passwords are valid.

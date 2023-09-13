@@ -1,0 +1,34 @@
+1.
+Question 1
+When defining the string resource in the exercise, what was the ID of the title string? 
+1 / 1 point
+
+R.id.string.title
+
+R.id.title
+
+R.string.title
+Correct
+Correct. The string inner class in R contains the IDs of the string resources
+2.
+Question 2
+Adding the font size parameter to RestaurantName() composable limits it to emit Text of 32sp only.
+1 / 1 point
+
+ True 
+
+False
+Correct
+Correct. The font size of the RestaurantName() text would vary depending upon the value passed as an argument
+3.
+Question 3
+How many arguments were passed to the RestaurantNamePreview() function?
+0 / 1 point
+
+One 
+
+Two
+
+None 
+Incorrect
+Not quite. No argument was passed to RestaurantNamePreview()

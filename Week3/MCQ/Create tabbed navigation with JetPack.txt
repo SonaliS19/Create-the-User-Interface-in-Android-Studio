@@ -1,0 +1,48 @@
+
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+ In the exercise, which property of the Scaffold do you use to add MyBottomNavigation?    
+1 / 1 point
+
+modifier
+
+bottomBar
+
+topBar
+Correct
+ Correct! The bottomBar is used to add MyBottomNavigation.    
+2.
+Question 2
+ In this exercise, which properties do you set for the BottomNavigationItem. Select all that apply.    
+1 / 1 point
+
+icon
+Correct
+ Correct! The icon is used to set the icon for the current item.     
+
+onClick
+Correct
+ Correct! The onClick defines what happens when the current item is clicked.     
+
+selected
+Correct
+ Correct! The selected parameter is used to check if the current item is selected.     
+
+label
+Correct
+ Correct! The label is used to set the label for the current item.    
+3.
+Question 3
+ In the exercise, which one of the following approaches is used to iterate the list with an index?    
+1 / 1 point
+
+forEach method
+
+forEachIndexed method
+Correct
+ Correct! ForEachIndexed provides the item and the sequential index of the item.    

@@ -1,0 +1,59 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+What was the name of the composable replaced by xxx defined in this exercise?
+
+1234567
+@Composablefun xxx() {    Column {         WeeklySpecial()        MenuDish()    } }
+
+1 / 1 point
+
+BottomPanel 
+
+MenuDish
+
+LowerPanel
+Correct
+Correct! The Composable name was LowerPanel.
+2.
+Question 2
+In this exercise, Image composable loads the image from drawable using __________.
+
+                  
+1 / 1 point
+
+1
+drawableResource()
+
+
+1
+drawable using painterResource()
+
+
+1
+resource()
+
+Correct
+Correct! the composable function is used to add the routes for the for the NavHost.
+3.
+Question 3
+In this exercise, which listener was used to perform an action after the button is clicked? 
+1 / 1 point
+
+1
+onClickListener
+
+
+1
+onKeyListener 
+
+
+1
+onMouseListener
+
+Correct
+Correct! The onClickListener was used when button is clicked.

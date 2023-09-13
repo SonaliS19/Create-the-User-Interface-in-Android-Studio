@@ -1,0 +1,99 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+ The first screen that appears after an app is launched is known as a _____________?   
+1 / 1 point
+
+Main Activity
+
+Component Activity
+
+Screen class
+Correct
+That’s correct! By default the Main Activity is the first screen that appears after an app is launched.    
+
+2.
+Question 2
+ What are the advantages of using Jetpack Compose for UI development? Check all that apply.    
+1 / 1 point
+
+ It simplifies the development of UI components for Android applications    
+Correct
+ That’s correct! This is a feature of Jetpack Compose.    
+
+ It helps developers maintain a consistent UI across multiple devices and platforms such as Android, iOS and the web.    
+Correct
+ That’s correct! This is a feature of Jetpack Compose.    
+
+ It builds a UI without needing to use an Activity.
+
+ It can help build a UI using less code    
+Correct
+ That’s correct! This is a feature of Jetpack Compose.    
+3.
+Question 3
+ What is the purpose of View Groups when building an Android UI? Select all that apply.    
+1 / 1 point
+
+ To allow for the creation of complex user interfaces    
+Correct
+ That’s correct!  Along with Views and Layouts, View Groups aid the building of a more complex UI.      
+
+ To define the navigation paths between screens     
+Correct
+ That’s correct! View Groups aid the connection of multiple UI screens.    
+
+ To replace the use of TextView     
+
+ To provide a better organization of views.
+Correct
+ That’s correct! Using View, groups the structure of the user interface.    
+4.
+Question 4
+ Which of these are commonly used views in Android applications? Select all that apply.    
+1 / 1 point
+
+ButtonView
+
+Button
+Correct
+ That’s correct. A button allows user input.    
+
+ActivityView
+
+TextField
+Correct
+ That’s correct. A text field allows user input.    
+
+ImageView
+Correct
+ That’s correct. ImageView displays images.    
+
+TextView
+Correct
+ That’s correct. TextView is used to display text.    
+5.
+Question 5
+ Which of the following are layout views that can be used in Android UI design. Select all that apply.    
+1 / 1 point
+
+GridLayout
+Correct
+That’s correct! A GridLayout is segmented with invisible lines to form cells in a grid of rows and columns.     
+
+
+LinearLayout
+Correct
+That’s correct! A Linear Layout linearly organizes the contained views horizontally or vertically.    
+
+UILayout
+
+ViewLayout
+
+RelativeLayout
+Correct
+That’s correct. A Relative Layout specifies the position of contained views relative to each other.    

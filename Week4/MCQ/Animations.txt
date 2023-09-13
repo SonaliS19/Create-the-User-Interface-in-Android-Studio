@@ -1,0 +1,126 @@
+1.
+Question 1
+What is a Theme composed of?
+1 point
+
+A collection of attributes 
+
+A collection of views
+
+A collection of composables
+2.
+Question 2
+What do the characters FF represent in the following hexadecimal value?
+
+0xFF000000
+1 point
+
+the alpha channel 
+
+the blue color 
+
+The red color
+
+the green color
+3.
+Question 3
+True or False: The main difference between dp (density independent pixel) and sp (scalable pixel) is that it takes the text size setting of the user device into consideration when deciding what text size should be displayed. 
+1 point
+
+True
+
+False
+4.
+Question 4
+Which of the following correctly styles a text composable with a monospaced font?
+1 point
+
+
+1234
+Text(    style = FontFamily.Monospace) 
+
+
+
+12345678
+Text(    style = TextStyle(        text = “Hello World!”,        fontSize = 25.sp,        font = FontFamily.Monospace    )) 
+
+
+
+12345678
+Text(    style = TextStyle(        text = “Hello World!”,        fontSize = 25.sp,        fontFamily = Monospace )) 
+
+
+
+12345678
+Text(    style = TextStyle(        text = “Hello World!”,        fontSize = 25.sp,        fontFamily = FontFamily.Monospace   )) 
+
+5.
+Question 5
+Which of the following modifiers will specify the size of a Surface and make it visible?
+1 point
+
+padding
+
+border
+
+fillMaxSize
+
+wrapContentSize
+6.
+Question 6
+Which of the following is an optional modifier that can be used to specify the weight of a text within a Text composable?
+1 point
+
+fontSize
+
+font
+
+fontWeight
+
+weight
+7.
+Question 7
+Imagine you have a Surface with a Text composable as its content. Which of the following modifiers will set the minimum height required to show the text?
+1 point
+
+align
+
+padding
+
+wrapContentSize
+
+fillMaxSize
+8.
+Question 8
+Which of the following is the composable that animates the appearance and disappearance of its content?
+1 point
+
+Visibility
+
+VisibleAnimation
+
+AnimatedVisibility
+
+Animation
+9.
+Question 9
+What will be the output of the following code?
+
+
+1 point
+
+The first Button click will instantly hide the Text and the following Button click will instantly show the Text.
+
+The first Button click will instantly show the Text and the following Button click will have no effect.
+
+The First Button click will start fade in animation of the Text and the following Button click will start fade out animation of the Text.
+
+The first Button click will start the fade out animation of the Text and the following Button click will start fade in animation of the Text.
+10.
+Question 10
+True or False: You can control how long each transition will last.
+1 point
+
+True
+
+False

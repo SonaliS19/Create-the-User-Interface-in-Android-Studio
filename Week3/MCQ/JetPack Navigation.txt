@@ -1,0 +1,74 @@
+Congratulations! You passed!
+Grade received 80%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+Which among the following actions can start navigation? Select all that apply.
+1 / 1 point
+
+Clicking a tab item
+Correct
+Correct! Clicking a tab item can navigate to a new screen.
+
+Selecting an item from the list
+Correct
+Correct! Selecting an item from the list can open its details.
+
+Clicking a button
+Correct
+ Correct! Clicking a button can navigate to a new screen.    
+2.
+Question 2
+Bottom Navigation only navigates to a new destination without showing the status of the active item.
+1 / 1 point
+
+True
+
+False
+Correct
+ Correct! Bottom Navigation navigates to a new destination by showing the status of the active item.    
+3.
+Question 3
+ Select all that apply. The fixed start navigation principle states that:     
+1 / 1 point
+
+The application always ends with the same starting screen while leaving the app.
+Correct
+ Correct! The application always ends with the same starting screen.   
+
+The application always starts from the same first screen. 
+Correct
+ Correct! The application always starts from the same first screen.    
+
+ The application always starts from the same screen but ends with a different screen.   
+4.
+Question 4
+The Stack works on which one of the following principles?
+1 / 1 point
+
+Last in First out
+
+First in Last out
+
+First in First out
+
+Last in Last out
+Correct
+Correct! The Stack works in the Last in First out principle.
+5.
+Question 5
+Select all that apply. 
+
+The purpose of NavHost is to:               
+0 / 1 point
+
+act as a container for displaying the current destination.
+
+manage the Back Stack.
+
+take the NavController as a parameter and associate it with the NavGraph.
+Correct
+Correct! The NavHost takes the NavController as a parameter and associates it with the NavGraph.
+You didn’t select all the correct answers

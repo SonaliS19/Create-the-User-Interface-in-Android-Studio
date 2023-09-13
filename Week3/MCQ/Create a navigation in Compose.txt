@@ -1,0 +1,39 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+ In this exercise, which property of the NavHost is used to set the initial destination?     
+1 / 1 point
+
+modifier
+
+navController
+
+startDestination
+Correct
+ Correct! The startDestination is used to set the initial destination.    
+2.
+Question 2
+In this exercise, the composable function is used to add the routes for the for the NavHost.    
+1 / 1 point
+
+True
+
+False
+Correct
+Correct! the composable function is used to add the routes for the for the NavHost.    
+3.
+Question 3
+In this exercise, which one of the following variables are created in the Destinations interface for defining the NavGraph.    
+1 / 1 point
+
+icon
+
+nodes
+
+route
+Correct
+Correct! Route is required by the composable function for defining the NavGraph.   

@@ -1,0 +1,25 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+Did you successfully download and import the starting project code?
+1 / 1 point
+
+Yes
+
+No
+Correct
+Well done. The starting code will help you in the subsequent exercises.
+2.
+Question 2
+Did the app run successfully on your Android device/emulator?
+1 / 1 point
+
+Yes
+
+No
+Correct
+Well done. Running the app is a good method of checking progress as you work on the project.

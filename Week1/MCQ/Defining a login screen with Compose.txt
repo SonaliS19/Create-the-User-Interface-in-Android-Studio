@@ -1,0 +1,49 @@
+1.
+Question 1
+In this exercise, which arguments were used to position content on the screen?                    
+1 / 1 point
+
+1
+verticalArrangement = Arrangement.Center
+
+
+1
+horizontalAlignment = Alignment.CenterHorizontally
+
+ and
+
+1
+verticalArrangement = Arrangement.Center
+
+
+1
+horizontalAlignment = Alignment.CenterHorizontally
+
+Correct
+Correct! Both arguments were used to arrange and align composables in the Column.
+2.
+Question 2
+In this exercise, what was the name of the Composable used to add Little Lemon logo?                          
+1 / 1 point
+
+Image
+Correct
+Correct! The composable used to display images is called Image. The painterResource was used to set the image source for the little lemon logo drawable.
+
+ ImageView
+
+Painter
+
+Drawable
+3.
+Question 3
+In this exercise, what annotation is required to create Composable Preview?
+1 / 1 point
+
+Composable annotation only
+
+Composable and Preview annotations
+
+Preview annotation only 
+Correct
+Correct! Both annotations are required. The Composable annotation is used to define composable and the Preview annotation is used to create preview of the Composable.

@@ -1,0 +1,441 @@
+Your grade: 83.33%
+Your latest: 83.33%•
+Your highest: 83.33%•
+To pass you need at least 80%. We keep your highest score.
+Next item
+1.
+Question 1
+True or False: Android does not provide a way for the 3rd party app to start up activities belonging to other apps.
+1 / 1 point
+
+True
+
+False
+Correct
+Correct! You can start up activities belonging to other apps. For example, you can run the camera to take a photo that will be added directly to your application.
+2.
+Question 2
+How is a Compose UI element represented?
+1 / 1 point
+
+View Object
+
+AppCompatActivity
+
+Special function 
+
+Tag in the XML file
+Correct
+Correct! The function is called composable and it is annotated with an @Composable annotation.
+3.
+Question 3
+What can a layout contain? Select all that apply.
+0 / 1 point
+
+Other layouts
+Correct
+Correct! Layouts may contain other layouts.
+
+Activities
+
+UI Elements
+Correct
+Correct! Layouts may contain simple UI elements.
+
+Screens
+This should not be selected
+Not quite. Please review the video 
+Layouts in Compose
+.
+4.
+Question 4
+True or False: Applying modifiers to a composable in different order may produce a different result. 
+1 / 1 point
+
+True
+
+False
+Correct
+Correct! Changing the order may have a different effect on the overall arrangement, positioning, size or even behavior of the elements.
+5.
+Question 5
+In the code below, what is the reason behind usage of the remember function and mutableStateOf observable?
+
+val value = remember { mutableStateOf(/*some value*/) }
+1 / 1 point
+
+Reset of the variable value during recomposition.
+
+Prevent reset of the variable value during recomposition.
+
+Reset of the variable value during function call.
+Correct
+Correct! To retain the value, you have to use the remember function and mutableStateOf observable. Otherwise, the function would reset the variable to its initial value.
+6.
+Question 6
+Which of the following does each composable destination in the navigation graph correspond to?
+0 / 1 point
+
+Route
+Correct
+Correct! Each composable destination corresponds to a Route in the navigation graph. The Route is a unique String for every destination.
+
+Screen
+This should not be selected
+Not quite. Please review the video 
+The Navigation component
+. 
+
+Destination
+
+Activity
+7.
+Question 7
+Each item in a Grid is known as a:
+1 / 1 point
+
+Image
+
+Column
+
+Row
+
+Cell
+Correct
+Correct! In Android, a Grid is a scrollable layout that displays the items in two dimensions. A grid consists of both Rows and Columns. Each item in a Grid is known as a Cell.
+8.
+Question 8
+True or False: Theme is represented as a collection of attributes.
+1 / 1 point
+
+True 
+
+False
+Correct
+Correct! Theme is represented as a collection of attributes such as color, button height or text size.
+9.
+Question 9
+What numeric system is used to represent the ARGB color format?
+
+F2500FF1
+1 / 1 point
+
+Hexadecimal number system 
+
+Decimal number system
+
+Binary number system
+
+Octal number system
+Correct
+Correct! The colors are represented with a Hexadecimal number system. The first two characters represent the value of the Alpha channel. The first two characters also represent the value of the Alpha channel.
+10.
+Question 10
+What is the output of the following code?
+
+12345678910
+ var visible by remember {     mutableStateOf(true) } Column {     AnimatedVisibility(visible = visible) {     Text(text = "Hello, world!") } Button(onClick = { visible = !visible }) {     Text("Button ")     } } 
+
+1 / 1 point
+
+The first Button click will instantly show the Text and the following Button click will have no effect.
+
+The first Button click will instantly hide the Text and the following Button click will instantly show the Text.
+
+The first Button click will start the fade in animation of the Text and following Button click will start the fade out animation of the Text.
+
+The first Button click will start the fade out animation of the Text and the following Button click will start fade in animation of the Text.
+Correct
+Correct! The Animated Visibility composable smooths out Text transition from one state to another, from the component being visible to invisible and vice versa. By default, the content appears by fading in and expanding and it disappears by fading out and shrinking.
+11.
+Question 11
+Which of the following is represented by an Activity?
+0 / 1 point
+
+the application screen
+
+the main program entry point
+
+a component
+
+a UI pattern
+Incorrect
+Not quite. Please review the video 
+What is an Activity?
+.
+12.
+Question 12
+Which of the following is a container element that enables the grouping of elements
+1 / 1 point
+
+Group
+
+GroupView
+
+ViewGroup
+
+View
+Correct
+Correct! A ViewGroup is a special view that does not have an appearance of its own.
+13.
+Question 13
+Which of the following lifecycle states does an Activity spend the most time in?
+0 / 1 point
+
+Started
+
+Created
+
+Resumed
+
+Paused
+Incorrect
+Not quite. Please review the video 
+The activity lifecycle
+.
+14.
+Question 14
+Which of the following is passed to an Activity as a layout resource than will be rendered on the screen?
+1 / 1 point
+
+an XML file
+
+a view
+
+a Lambda
+
+a composable
+Correct
+Correct! An XML file stores structured information about how the Android OS should draw the screen.
+15.
+Question 15
+Which of the following is the approach used by Jetpack Compose to build a user interface?
+1 / 1 point
+
+imperative
+
+hierarchical
+
+traditional
+
+declarative
+Correct
+Correct! The declarative approach allows developers to focus more on the application logic rather than XML and visual design.
+16.
+Question 16
+When writing composable functions, which of the following do you add before the start of the function definition?
+1 / 1 point
+
+composable
+
+@function
+
+@Composable
+
+@annotation
+Correct
+Correct! Using composable functions means you no longer need to define any XML.
+17.
+Question 17
+Which of the following is a Kotlin language feature that allows developers to add metadata used to provide additional information and control the behavior of the code?
+1 / 1 point
+
+composables
+
+functions
+
+variables 
+
+annotations
+Correct
+Correct! Metadata can be used when the code is compiled or when the code is running.
+18.
+Question 18
+Which of the following built-in layouts in Compose places composables horizontally?
+1 / 1 point
+
+layout 
+
+column
+
+box
+
+row
+Correct
+Correct! For a row the main axis is the horizontal axis, so you can set the horizontal alignment.
+19.
+Question 19
+Which of the following annotations allows you to preview designs built with Jetpack Compose?
+1 / 1 point
+
+@Composable
+
+@Preview
+
+Preview
+Correct
+Correct! The @Preview annotation accepts three optional parameters: name, showDecoration and group. These optional parameters allow additional configuration of the generated preview.
+20.
+Question 20
+Imagine you have a drawable resource called helloWorld. Which of the following is the correct way to define an Image composable that will display the helloWorld drawable on the screen?
+1 / 1 point
+
+12
+Image(painterResource(id = R.drawable.helloWorld), contentDescription = ‘hello world’)
+
+
+12
+Image(R.drawable.helloWorld, contentDescription = ‘hello world’)
+
+
+12
+Image(painter = painterResource(id = R.drawable.helloWorld), contentDescription = ‘hello world’)
+
+
+12
+Image(painter = R.drawable.helloWorld, contentDescription = ‘hello world’)
+
+Correct
+Correct! The painterResource accepts the id of an image in the drawable.
+21.
+Question 21
+Which of the following modifiers is used to set the background color of a composable?
+1 / 1 point
+
+layoutColor 
+
+background
+
+backgroundColor
+
+color
+Correct
+Correct! The background modifier accepts a color object as an argument.
+22.
+Question 22
+What are tapping or clicking a button, scrolling a list, swiping across the screen, dragging an icon and long pressing a thumbnail all examples of?
+0 / 1 point
+
+user actions
+
+user events
+
+event listeners
+
+event handlers
+Incorrect
+Not quite. Please review the video 
+Event handling with callbacks
+.
+23.
+Question 23
+Which of the following event modifiers is used to specify a function to be executed when a user clicks a specific composable?
+1 / 1 point
+
+Modifier.draggable
+
+Modifier.swipeable 
+
+Modifier.clickable
+
+Modifier.selectable 
+Correct
+Correct! The clickable modifier can be used to trigger actions such as navigation or updating a composable’s state. 
+24.
+Question 24
+In a scenario where a user has partially completed a form, then changes their device’s orientation, the UI will be recreated. Which of the following will ensure the entered data is preserved?
+1 / 1 point
+
+state
+
+activities
+
+a database
+
+event modifiers
+Correct
+Correct! Whatever is displayed to the user has a state.
+25.
+Question 25
+Which of the following is a component provided by Jetpack Compose that makes it convenient to implement the Material Design system?
+1 / 1 point
+
+Top App Bar
+
+Scaffold
+
+Material Component
+
+Navigation Drawer
+Correct
+Correct! Scaffold is an easy way to combine various UI patterns and material components.
+26.
+Question 26
+When implementing navigation in Jetpack Compose, which of the following must be created at the top of the composable hierarchy?
+1 / 1 point
+
+NavController
+
+Destination
+
+MainActivity
+
+NavHost
+Correct
+Correct! The composable for implementing navigation must be placed at the top of the composable hierarchy.
+27.
+Question 27
+Which of the following is used to define a horizontal List in Jetpack Compose?
+1 / 1 point
+
+Column
+
+Row
+
+Box 
+
+Grid
+Correct
+Correct! A Row is a layout composable. A Column is used when you want to define a vertical List.
+28.
+Question 28
+Which of the following would you use to create a vertical scrollable List for a large or unknown number of items?
+1 / 1 point
+
+lazy list
+
+lazy column
+
+lazy row
+
+lazy grid
+Correct
+Correct! Lazy column takes care of scrolling and recomposing items when required.
+29.
+Question 29
+Which of the following is a mechanism for unifying and maintaining the application look and feel across all screens?
+1 / 1 point
+
+a design system
+
+a composable hierarchy
+
+XML
+
+a theme
+Correct
+Correct! The appearance of multiple screens can be controlled by a single theme.
+30.
+Question 30
+Which of the following APIs can be used to make sure a composable retains its state during recomposition triggered by animation?
+1 / 1 point
+
+recomposition API
+
+remember API
+
+state API
+
+animate*AsState API
+Correct
+Correct! The by remember keyword can be used in a variable declaration to ensure the state value is maintained across recomposition. 

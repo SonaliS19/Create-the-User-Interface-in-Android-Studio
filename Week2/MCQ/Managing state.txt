@@ -1,0 +1,63 @@
+Congratulations! You passed!
+Grade received 100%
+To pass 80% or higher
+
+Go to next item
+1.
+Question 1
+Not all ‘events’ in an Android app happen due to user interaction. 
+1 / 1 point
+
+True
+
+False
+Correct
+That's right! Most of the events happen due to user interaction within the app, but there are some events which occur without user intervention such as network connection lost, battery charge drop and download completion.
+2.
+Question 2
+What does 'Recomposition' in Jetpack Compose allow developers to do? 
+1 / 1 point
+
+Write new code without editing existing code.
+
+Refresh the UI whenever the data changes. 
+
+Reuse existing code 
+Correct
+That's correct! In Compose the recreation of an app UI may happen frequently and is called 'Recomposition'
+3.
+Question 3
+In Jetpack Compose what does the mutableStateOf function create?
+1 / 1 point
+
+A fixed state of data
+
+An immutable state of code
+
+State that can be changed over time. 
+Correct
+That’s correct. The mutableStateOf API helps to preserve the state across recompositions and the activity lifecycle.
+4.
+Question 4
+A composable holding and modifying its state internally is called a ____________.
+1 / 1 point
+
+Stateful Recomposition
+
+Stateless composable
+
+Stateful composable
+Correct
+That’s correct.  Stateful composable is a way of building user interfaces in Android that allows developers to define the state of their views and components.
+5.
+Question 5
+What is the main purpose of State Hoisting in Android UI Development? 
+1 / 1 point
+
+To improve the performance of an Android application 
+
+To aid in debugging an application
+
+To store and restore UI states during configuration changes 
+Correct
+That’s correct. State hoisting is a concept in Android UI development that allows developers to save and restore the state of their UI components.
